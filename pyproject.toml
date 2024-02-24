@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "nn-sym-test"
+version = "0.0.1"
+authors = [
+  { name="Martin Krutský", email="martin.krutsky@protonmail.com" },
+]
+description = "A framework for testing neural networks' invariances against defined symmetries."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/martin-krutsky/neural-symmetry-testing"
+Issues = "https://github.com/martin-krutsky/neural-symmetry-testing/issues"

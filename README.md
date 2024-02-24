@@ -1,2 +1,2 @@
-# Neural Symmetry Detection
-A framework for testing neural network architectures against symmetries.
+# Neural Symmetry Testing
+A framework for testing neural networks' invariances against defined symmetries.
